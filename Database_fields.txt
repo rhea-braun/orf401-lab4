@@ -1,0 +1,13 @@
+CREATE TABLE ridersdb (
+    fName varchar(15),
+    lName varchar(15),
+    Origin varchar(15),
+    Destination varchar(15),
+    dDate date,
+    dTime time,
+    Hascar varchar(5),
+    Seats int,
+    Pass varchar(15),
+    Email varchar(30),
+    PRIMARY KEY(email)
+)

@@ -1,0 +1,43 @@
+<html>
+	<head>
+    <title> The HandyRides - Member Registration </title>
+  </head>
+
+  <body bgcolor="white" text="black">
+    <center>
+
+      <br/> <br />
+
+      <img src ="logo.jpg", align="middle">
+
+      <br /><br /><br />
+
+      <form name="new" action="addMember.php" method="post">
+
+        <p>Please fill out the following fields:</p>
+        <label for="fName"> First Name:</label><input type="text" name="fName" /><br />
+        <label for="lName"> Last Name: </label><input type="text" name="lName" /><br />
+        <label for="Email"> Email: </label><input type="text" name ="Email" /><br />
+        <label for="Pass"> Password: </label><input type="password" name="Pass" />
+
+        <p>Please enter your trip information: </p>
+        <label for="Origin">Origin:</label><input type="text" name="Origin" /><br />
+        <label for="Destination">Destination:</label><input type="text" name="Destination" /><br />
+        <label for="dDate">Departure Date:</label><input type="date" name="dDate" /><br />
+        <label for="dTime">Departure Time:</label><input type="time" name="dTime" />
+
+        <p>Do you have a car: <p>
+        <input type="radio" name="Hascar" value="Yes" /> <label for="Hascar">Yes</label>
+        <input type="radio" name="Hascar" value="No" /> <label for="Hascar">No</label>
+        <p>If you have a car, how many seats can you offer:</p>
+        <input type="number" name="Seats" />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <br />
+
+      <a href="isindexSearch.php"> Return to Homepage </a>
+
+    </center>
+  </body>
+</html>
